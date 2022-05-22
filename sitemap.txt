@@ -1,3 +1,2 @@
 http://example.com/2022/05/22/%E7%AC%AC%E4%B8%80%E7%AF%87/
 http://example.com/
-http://example.com/tags/java/
