@@ -6,7 +6,7 @@
   <link href="https://edward-hhh.github.io/atom.xml" rel="self"/>
   
   <link href="https://edward-hhh.github.io/"/>
-  <updated>2022-05-30T10:14:14.522Z</updated>
+  <updated>2022-06-08T02:11:08.670Z</updated>
   <id>https://edward-hhh.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>media图片404加载失败设置</title>
+    <link href="https://edward-hhh.github.io/2022/06/08/media%E5%9B%BE%E7%89%87404%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5%E8%AE%BE%E7%BD%AE/"/>
+    <id>https://edward-hhh.github.io/2022/06/08/media%E5%9B%BE%E7%89%87404%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5%E8%AE%BE%E7%BD%AE/</id>
+    <published>2022-06-08T01:49:03.000Z</published>
+    <updated>2022-06-08T02:11:08.670Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/06/08/ziDNk7ZJIY6A3XB.png" alt="wallhaven-w8gyex_1920x1080"></p><h1 id="django1-9-8-python2-7学习记录"><a href="#django1-9-8-python2-7学习记录" class="headerlink" title="django1.9.8+python2.7学习记录"></a>django1.9.8+python2.7学习记录</h1><p>在学习慕课网6-1时出现了问题，跟着课程视频设置的图片加载失败了，在评论区和浏览器F12中发现是media中的图片加载404错误，而课程视频中的设置只设置了static中的图片路径，所以就上网查找media中的图片设置前端显示，找了有些时间吧，现在已经可以正常显示了。</p><span id="more"></span><p><strong>下面是解决问题的方法：</strong></p><ul><li>第一步</li></ul><p>在settings中设置media的查找路径</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">MEDIA_URL = <span class="string">&#x27;/media/&#x27;</span></span><br><span class="line">MEDIA_ROOT = os.path.join(BASE_DIR, <span class="string">&#x27;media&#x27;</span>)</span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2022/06/08/qzg7CsDSkLoYmHN.png" alt="settings"></p><ul><li>第二步</li></ul><p>在urls中配置上传文件的访问函数</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> django.views.static <span class="keyword">import</span> serve</span><br><span class="line"><span class="keyword">from</span> . <span class="keyword">import</span> settings</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">urlpatterns = [</span><br><span class="line">    url(<span class="string">r&#x27;^xadmin/&#x27;</span>, xadmin.site.urls),</span><br><span class="line"></span><br><span class="line">    url(<span class="string">&#x27;^$&#x27;</span>, TemplateView.as_view(template_name=<span class="string">&quot;index.html&quot;</span>), name=<span class="string">&quot;index&quot;</span>),</span><br><span class="line"></span><br><span class="line">    url(<span class="string">r&#x27;^media/(?P&lt;path&gt;.*)&#x27;</span>, serve, &#123;<span class="string">&quot;document_root&quot;</span>:settings.MEDIA_ROOT&#125;),</span><br><span class="line">]</span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2022/06/08/TAEP6cHk1ZUSbnu.png" alt="&lt;!--urls--&gt;"></p><p>至此应该就可以在本地端口8000页面正常加载media中的图片了。</p><p><img src="https://s2.loli.net/2022/06/08/sJ6nKSo27A5pGhW.png" alt="微信截图_20220608100546"></p><p><em>参考文章</em></p><p><em><a href="https://www.jianshu.com/p/e9aaa7418792">https://www.jianshu.com/p/e9aaa7418792</a></em></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/06/08/ziDNk7ZJIY6A3XB.png&quot; alt=&quot;wallhaven-w8gyex_1920x1080&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;django1-9-8-python2-7学习记录&quot;&gt;&lt;a href=&quot;#django1-9-8-python2-7学习记录&quot; class=&quot;headerlink&quot; title=&quot;django1.9.8+python2.7学习记录&quot;&gt;&lt;/a&gt;django1.9.8+python2.7学习记录&lt;/h1&gt;&lt;p&gt;在学习慕课网6-1时出现了问题，跟着课程视频设置的图片加载失败了，在评论区和浏览器F12中发现是media中的图片加载404错误，而课程视频中的设置只设置了static中的图片路径，所以就上网查找media中的图片设置前端显示，找了有些时间吧，现在已经可以正常显示了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工程" scheme="https://edward-hhh.github.io/categories/%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="后端" scheme="https://edward-hhh.github.io/categories/%E5%B7%A5%E7%A8%8B/%E5%90%8E%E7%AB%AF/"/>
+    
+    
+    <category term="django" scheme="https://edward-hhh.github.io/tags/django/"/>
+    
+    <category term="python" scheme="https://edward-hhh.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>天梯赛备战的一些杂题</title>
