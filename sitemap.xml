@@ -83,20 +83,6 @@
 
   
   <url>
-    <loc>https://edward-hhh.github.io/tags/%E5%A4%A9%E6%A2%AF%E8%B5%9B/</loc>
-    <lastmod>2022-07-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://edward-hhh.github.io/tags/C-C/</loc>
-    <lastmod>2022-07-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://edward-hhh.github.io/tags/django/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -105,6 +91,20 @@
   
   <url>
     <loc>https://edward-hhh.github.io/tags/python/</loc>
+    <lastmod>2022-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://edward-hhh.github.io/tags/%E5%A4%A9%E6%A2%AF%E8%B5%9B/</loc>
+    <lastmod>2022-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://edward-hhh.github.io/tags/C-C/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -120,14 +120,14 @@
 
   
   <url>
-    <loc>https://edward-hhh.github.io/categories/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://edward-hhh.github.io/categories/%E5%B7%A5%E7%A8%8B/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://edward-hhh.github.io/categories/%E5%B7%A5%E7%A8%8B/</loc>
+    <loc>https://edward-hhh.github.io/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -141,14 +141,14 @@
   </url>
   
   <url>
-    <loc>https://edward-hhh.github.io/categories/%E7%AE%97%E6%B3%95/%E7%AB%9E%E8%B5%9B/</loc>
+    <loc>https://edward-hhh.github.io/categories/%E5%B7%A5%E7%A8%8B/%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://edward-hhh.github.io/categories/%E5%B7%A5%E7%A8%8B/%E5%90%8E%E7%AB%AF/</loc>
+    <loc>https://edward-hhh.github.io/categories/%E7%AE%97%E6%B3%95/%E7%AB%9E%E8%B5%9B/</loc>
     <lastmod>2022-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
