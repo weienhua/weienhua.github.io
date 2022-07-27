@@ -1,3 +1,4 @@
+https://edward-hhh.github.io/2022/07/27/%E8%AE%B0%E4%BA%8B%E6%9C%AC/
 https://edward-hhh.github.io/2022/07/27/%E9%82%AE%E7%AE%B1%E9%97%AE%E9%A2%98/
 https://edward-hhh.github.io/2022/06/08/media%E5%9B%BE%E7%89%87404%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5%E8%AE%BE%E7%BD%AE/
 https://edward-hhh.github.io/2022/05/26/%E5%A4%A9%E6%A2%AF%E8%B5%9B%E5%A4%87%E6%88%98%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9D%82%E9%A2%98/
@@ -9,11 +10,12 @@ https://edward-hhh.github.io/categories/index.html
 https://edward-hhh.github.io/
 https://edward-hhh.github.io/tags/django/
 https://edward-hhh.github.io/tags/python/
-https://edward-hhh.github.io/tags/PTA/
-https://edward-hhh.github.io/tags/C-C/
+https://edward-hhh.github.io/tags/%E8%AE%B0%E5%BD%95/
 https://edward-hhh.github.io/tags/%E5%A4%A9%E6%A2%AF%E8%B5%9B/
+https://edward-hhh.github.io/tags/C-C/
+https://edward-hhh.github.io/tags/PTA/
+https://edward-hhh.github.io/categories/%E6%97%A5%E5%B8%B8/
 https://edward-hhh.github.io/categories/%E5%B7%A5%E7%A8%8B/
 https://edward-hhh.github.io/categories/%E7%AE%97%E6%B3%95/
 https://edward-hhh.github.io/categories/%E5%B7%A5%E7%A8%8B/%E5%90%8E%E7%AB%AF/
 https://edward-hhh.github.io/categories/%E7%AE%97%E6%B3%95/%E7%AB%9E%E8%B5%9B/
-https://edward-hhh.github.io/categories/%E6%97%A5%E5%B8%B8/

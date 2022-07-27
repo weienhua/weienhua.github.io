@@ -6,7 +6,7 @@
   <link href="https://edward-hhh.github.io/atom.xml" rel="self"/>
   
   <link href="https://edward-hhh.github.io/"/>
-  <updated>2022-07-27T03:00:26.561Z</updated>
+  <updated>2022-07-27T03:28:20.495Z</updated>
   <id>https://edward-hhh.github.io/</id>
   
   <author>
@@ -17,13 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>记事本</title>
+    <link href="https://edward-hhh.github.io/2022/07/27/%E8%AE%B0%E4%BA%8B%E6%9C%AC/"/>
+    <id>https://edward-hhh.github.io/2022/07/27/%E8%AE%B0%E4%BA%8B%E6%9C%AC/</id>
+    <published>2022-07-27T03:06:01.000Z</published>
+    <updated>2022-07-27T03:28:20.495Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/07/27/aUhDP7sTqMVI8bH.jpg" alt="ss"></p><h3 id="hexo发布文章"><a href="#hexo发布文章" class="headerlink" title="hexo发布文章"></a>hexo发布文章</h3><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code> 本地调试</p><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 上传到博客</p><span id="more"></span><p><code>hexo clean</code> 清楚本地</p><p><code>hexo g</code> 生成静态页面</p><p><code>hexo s</code> 本地调试</p><p><code>hexo d</code>上传到博客</p><p>有用的文章</p><ul><li><a href="https://www.cnblogs.com/anthony-wang0228/articles/11461321.html">图片设置</a></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/07/27/aUhDP7sTqMVI8bH.jpg&quot; alt=&quot;ss&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;hexo发布文章&quot;&gt;&lt;a href=&quot;#hexo发布文章&quot; class=&quot;headerlink&quot; title=&quot;hexo发布文章&quot;&gt;&lt;/a&gt;hexo发布文章&lt;/h3&gt;&lt;p&gt;&lt;code&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s&lt;/code&gt; 本地调试&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo d&lt;/code&gt; 上传到博客&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="记录" scheme="https://edward-hhh.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>邮箱问题</title>
     <link href="https://edward-hhh.github.io/2022/07/27/%E9%82%AE%E7%AE%B1%E9%97%AE%E9%A2%98/"/>
     <id>https://edward-hhh.github.io/2022/07/27/%E9%82%AE%E7%AE%B1%E9%97%AE%E9%A2%98/</id>
     <published>2022-07-27T02:34:59.000Z</published>
-    <updated>2022-07-27T03:00:26.561Z</updated>
+    <updated>2022-07-27T03:27:47.602Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/07/27/NuGEq1j68YUiCol.png" alt="wallhaven-57yr13_1920x1080"></p><h1 id="django1-9-8-python2-7学习记录"><a href="#django1-9-8-python2-7学习记录" class="headerlink" title="django1.9.8+python2.7学习记录"></a>django1.9.8+python2.7学习记录</h1><p>在学习<code>django</code>的过程中出现的一些问题，配置个人中心页面的邮箱修改时，在点击发送验证码之后进入调试逻辑，刚开始在对象保存的时候出错，后来发现是前面的<code>send_type</code>字段定义的长度是10，<span id="more"></span>增加<code>update_email</code>后超出了最大长度，所以<code>save</code>就一直不成功，修改<code>models</code>中字段的<code>max_length</code>后，更新数据库的字段信息，就可以保存成功了。</p><p><img src="https://s2.loli.net/2022/07/27/ArMpDEvGok1zqbI.png" alt="1"></p><p><img src="https://s2.loli.net/2022/07/27/E2qvgkjdicCK7YX.png" alt="2"></p><hr><p>修改字段后可以保存成功了，但是在发送的时候出问题了，怎么也发不出去邮件，在网上查找之后，修改了<code>setting</code>配置中的<code>EMAIL_BACKEND</code>和<code>EMAIL_USE_TLS</code>两个字段，依然不行，试着把授权码重新生成了一下<code>EMAIL_HOST_PASSWORD</code>，设置之后发现可以发送成功了，后面把前面两个字段注释掉依然可以发送成功，所以猜测问题是出在授权码上，也许是时间有点久了，qq邮箱自动关闭了<code>smtp</code>的授权。</p><p><img src="https://s2.loli.net/2022/07/27/glCwbDW2jSK5X43.png" alt="3"></p><p>网上说<code>EMAIL_BACKEND</code>这个字段是为了检测邮箱账号和密码的格式是否正确</p><p><code>EMAIL_USE_TLS</code>这个字段说是信息的加密。</p><p>参考文章</p><ul><li><p><code>https://blog.csdn.net/yx1179109710/article/details/81367617</code></p></li><li><p><code>https://blog.csdn.net/z390332412/article/details/78055296?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;utm_relevant_index=1</code></p></li><li><p><code>https://blog.csdn.net/xinxinNoGiveUp/article/details/78900811</code></p></li></ul>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/07/27/NuGEq1j68YUiCol.png" alt="wallhaven-57yr13_1920x1080"></p><h1 id="django1-9-8-python2-7学习记录"><a href="#django1-9-8-python2-7学习记录" class="headerlink" title="django1.9.8+python2.7学习记录"></a>django1.9.8+python2.7学习记录</h1><p>在学习<code>django</code>的过程中出现的一些问题，配置个人中心页面的邮箱修改时，在点击发送验证码之后进入调试逻辑，刚开始在对象保存的时候出错，后来发现是前面的<code>send_type</code>字段定义的长度是10，<span id="more"></span>增加<code>update_email</code>后超出了最大长度，所以<code>save</code>就一直不成功，修改<code>models</code>中字段的<code>max_length</code>后，更新数据库的字段信息，就可以保存成功了。</p><p><img src="https://s2.loli.net/2022/07/27/ArMpDEvGok1zqbI.png" alt="1"></p><p><img src="https://s2.loli.net/2022/07/27/E2qvgkjdicCK7YX.png" alt="2"></p><hr><p>修改字段后可以保存成功了，但是在发送的时候出问题了，怎么也发不出去邮件，在网上查找之后，修改了<code>setting</code>配置中的<code>EMAIL_BACKEND</code>和<code>EMAIL_USE_TLS</code>两个字段，依然不行，试着把授权码重新生成了一下<code>EMAIL_HOST_PASSWORD</code>，设置之后发现可以发送成功了，后面把前面两个字段注释掉依然可以发送成功，所以猜测问题是出在授权码上，也许是时间有点久了，qq邮箱自动关闭了<code>smtp</code>的授权。</p><p><img src="https://s2.loli.net/2022/07/27/glCwbDW2jSK5X43.png" alt="3"></p><p>网上说<code>EMAIL_BACKEND</code>这个字段是为了检测邮箱账号和密码的格式是否正确</p><p><code>EMAIL_USE_TLS</code>这个字段说是信息的加密。</p><p>参考文章</p><ul><li><p><a href="https://blog.csdn.net/yx1179109710/article/details/81367617">https://blog.csdn.net/yx1179109710/article/details/81367617</a></p></li><li><p><a href="https://blog.csdn.net/z390332412/article/details/78055296?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~BlogCommendFromBaidu~default-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~BlogCommendFromBaidu~default-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;utm_relevant_index=1">https://blog.csdn.net/z390332412/article/details/78055296?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;utm_relevant_index=1</a></p></li><li><p><a href="https://blog.csdn.net/xinxinNoGiveUp/article/details/78900811">https://blog.csdn.net/xinxinNoGiveUp/article/details/78900811</a></p></li></ul>]]></content>
     
     
     <summary type="html">&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/07/27/NuGEq1j68YUiCol.png&quot; alt=&quot;wallhaven-57yr13_1920x1080&quot;&gt;&lt;/p&gt;
@@ -88,9 +109,9 @@
     <category term="竞赛" scheme="https://edward-hhh.github.io/categories/%E7%AE%97%E6%B3%95/%E7%AB%9E%E8%B5%9B/"/>
     
     
-    <category term="C/C++" scheme="https://edward-hhh.github.io/tags/C-C/"/>
-    
     <category term="天梯赛" scheme="https://edward-hhh.github.io/tags/%E5%A4%A9%E6%A2%AF%E8%B5%9B/"/>
+    
+    <category term="C/C++" scheme="https://edward-hhh.github.io/tags/C-C/"/>
     
   </entry>
   
@@ -114,9 +135,9 @@
     <category term="竞赛" scheme="https://edward-hhh.github.io/categories/%E7%AE%97%E6%B3%95/%E7%AB%9E%E8%B5%9B/"/>
     
     
-    <category term="PTA" scheme="https://edward-hhh.github.io/tags/PTA/"/>
-    
     <category term="C/C++" scheme="https://edward-hhh.github.io/tags/C-C/"/>
+    
+    <category term="PTA" scheme="https://edward-hhh.github.io/tags/PTA/"/>
     
   </entry>
   
