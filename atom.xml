@@ -6,7 +6,7 @@
   <link href="https://edward-hhh.github.io/atom.xml" rel="self"/>
   
   <link href="https://edward-hhh.github.io/"/>
-  <updated>2022-07-27T03:37:30.137Z</updated>
+  <updated>2022-08-02T03:09:05.776Z</updated>
   <id>https://edward-hhh.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WSL安装配置</title>
+    <link href="https://edward-hhh.github.io/2022/08/02/WSL%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+    <id>https://edward-hhh.github.io/2022/08/02/WSL%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/</id>
+    <published>2022-08-02T02:47:20.000Z</published>
+    <updated>2022-08-02T03:09:05.776Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/08/02/clQoqBDumNjPSCy.png" alt="wallhaven-pkogdp_1920x1080"></p><h1 id="WSL安装和配置"><a href="#WSL安装和配置" class="headerlink" title="WSL安装和配置"></a>WSL安装和配置</h1><p>在python开发中python版本和各种库的版本不同导致无法把不同版本的库装在全局配置中，所以得用到virtualenv虚拟环境管理，这里在windows系统下安装linux的子系统，可以方便的在linux中进行一些安装和环境配置。</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h4 id="启用WSL"><a href="#启用WSL" class="headerlink" title="启用WSL"></a>启用WSL</h4><p>windows系统默认是关闭WSL的选项的，所以在安装之前要先把WSL的功能打开。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</span><br></pre></td></tr></table></figure><p>管理员身份在powershell中运行这条命令即可打开。</p><h4 id="启用虚拟机功能"><a href="#启用虚拟机功能" class="headerlink" title="启用虚拟机功能"></a>启用虚拟机功能</h4><p>安装WSL 2之前，必须启用虚拟机平台可选功能，即启用虚拟化功能。</p><p>以管理员身份在powershell中运行下面命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart</span><br></pre></td></tr></table></figure><p>启用上面两个功能之后重启电脑让系统完成设置</p><h4 id="下载Linux内核更新包"><a href="#下载Linux内核更新包" class="headerlink" title="下载Linux内核更新包"></a>下载Linux内核更新包</h4><p>这里是把WSL1更新为WSL的</p><ul><li><a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi">适用于x64的WSL2 Linux内核更新包</a></li><li>运行上一步中的更新包，此时需要权限，点击是即可。</li></ul><p>安装完成之后继续执行下面，将WSL2设置为默认版本。</p><h4 id="将WSL2设置为默认版本"><a href="#将WSL2设置为默认版本" class="headerlink" title="将WSL2设置为默认版本"></a>将WSL2设置为默认版本</h4><p>以管理员身份在powershell中运行下面的命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl --set-default-version 2</span><br></pre></td></tr></table></figure><h4 id="去Microsoft-Store中安装Linux"><a href="#去Microsoft-Store中安装Linux" class="headerlink" title="去Microsoft Store中安装Linux"></a>去Microsoft Store中安装Linux</h4><p>打开商店，搜索Ubuntu，这里 安装版本为18.04.5</p><p><img src="https://s2.loli.net/2022/08/02/2zHBtXAYfegQscw.png" alt="2"></p><p>下载安装完成之后点击打开即可，也可以在左面按住shift键点击右键，选择运行linuxshell，第一次运行需要配置解压文件，需要等待，之后配置用户名和密码即可。</p><h4 id="关于python"><a href="#关于python" class="headerlink" title="关于python"></a>关于python</h4><p>系统自带的python版本为3.6.9，如果需要安装其他版本直接通过Linux系统的方法安装即可。</p><h4 id="关于密码"><a href="#关于密码" class="headerlink" title="关于密码"></a>关于密码</h4><p>关于用户名和密码可以参看下图。</p><p><img src="https://s2.loli.net/2022/08/02/yCZ1Mq8WF4D2Vdi.png" alt="1"></p><h4 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h4><ul><li><a href="https://docs.microsoft.com/zh-cn/windows/wsl/install-manual">WSL安装</a></li><li><a href="https://docs.microsoft.com/zh-cn/windows/wsl/setup/environment#set-up-your-linux-username-and-password">用户名和密码</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/08/02/clQoqBDumNjPSCy.png&quot; alt=&quot;wallhaven-pkogdp_1920x1080&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;WSL安装和配置&quot;&gt;&lt;a href=&quot;#WSL安装和配置&quot;</summary>
+      
+    
+    
+    
+    <category term="工程" scheme="https://edward-hhh.github.io/categories/%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="环境配置" scheme="https://edward-hhh.github.io/categories/%E5%B7%A5%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    
+    <category term="python" scheme="https://edward-hhh.github.io/tags/python/"/>
+    
+    <category term="Linux" scheme="https://edward-hhh.github.io/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>记事本</title>
@@ -44,7 +73,7 @@
     <link href="https://edward-hhh.github.io/2022/07/27/%E9%82%AE%E7%AE%B1%E9%97%AE%E9%A2%98/"/>
     <id>https://edward-hhh.github.io/2022/07/27/%E9%82%AE%E7%AE%B1%E9%97%AE%E9%A2%98/</id>
     <published>2022-07-27T02:34:59.000Z</published>
-    <updated>2022-07-27T03:27:47.602Z</updated>
+    <updated>2022-08-02T02:49:24.142Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/07/27/NuGEq1j68YUiCol.png" alt="wallhaven-57yr13_1920x1080"></p><h1 id="django1-9-8-python2-7学习记录"><a href="#django1-9-8-python2-7学习记录" class="headerlink" title="django1.9.8+python2.7学习记录"></a>django1.9.8+python2.7学习记录</h1><p>在学习<code>django</code>的过程中出现的一些问题，配置个人中心页面的邮箱修改时，在点击发送验证码之后进入调试逻辑，刚开始在对象保存的时候出错，后来发现是前面的<code>send_type</code>字段定义的长度是10，<span id="more"></span>增加<code>update_email</code>后超出了最大长度，所以<code>save</code>就一直不成功，修改<code>models</code>中字段的<code>max_length</code>后，更新数据库的字段信息，就可以保存成功了。</p><p><img src="https://s2.loli.net/2022/07/27/ArMpDEvGok1zqbI.png" alt="1"></p><p><img src="https://s2.loli.net/2022/07/27/E2qvgkjdicCK7YX.png" alt="2"></p><hr><p>修改字段后可以保存成功了，但是在发送的时候出问题了，怎么也发不出去邮件，在网上查找之后，修改了<code>setting</code>配置中的<code>EMAIL_BACKEND</code>和<code>EMAIL_USE_TLS</code>两个字段，依然不行，试着把授权码重新生成了一下<code>EMAIL_HOST_PASSWORD</code>，设置之后发现可以发送成功了，后面把前面两个字段注释掉依然可以发送成功，所以猜测问题是出在授权码上，也许是时间有点久了，qq邮箱自动关闭了<code>smtp</code>的授权。</p><p><img src="https://s2.loli.net/2022/07/27/glCwbDW2jSK5X43.png" alt="3"></p><p>网上说<code>EMAIL_BACKEND</code>这个字段是为了检测邮箱账号和密码的格式是否正确</p><p><code>EMAIL_USE_TLS</code>这个字段说是信息的加密。</p><p>参考文章</p><ul><li><p><a href="https://blog.csdn.net/yx1179109710/article/details/81367617">https://blog.csdn.net/yx1179109710/article/details/81367617</a></p></li><li><p><a href="https://blog.csdn.net/z390332412/article/details/78055296?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~BlogCommendFromBaidu~default-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~BlogCommendFromBaidu~default-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;utm_relevant_index=1">https://blog.csdn.net/z390332412/article/details/78055296?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;utm_relevant_index=1</a></p></li><li><p><a href="https://blog.csdn.net/xinxinNoGiveUp/article/details/78900811">https://blog.csdn.net/xinxinNoGiveUp/article/details/78900811</a></p></li></ul>]]></content>
     
