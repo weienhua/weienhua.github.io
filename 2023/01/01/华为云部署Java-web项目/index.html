@@ -1,0 +1,194 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="华为云部署Java web项目"><meta name="keywords" content="Java,云部署"><meta name="author" content="edward,undefined"><meta name="copyright" content="edward"><title>华为云部署Java web项目【欢迎来到后花园】</title><link rel="stylesheet" href="/css/fan.css"><link rel="stylesheet" href="/css/thirdparty/jquery.mCustomScrollbar.min.css"><link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"><link rel="icon" href="/favicon.ico"><!-- script(src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML")--><script src="/js/mathjax/mathjax.js"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+});
+</script><script>var isPassword = '' || false;
+if (isPassword) {
+    if (prompt('请输入文章密码') !== '') {
+        alert('密码错误！');
+        history.back();
+    }
+}</script><script>window.GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  gitment: ,
+  valine: ,
+}</script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="欢迎来到后花园" type="application/atom+xml">
+</head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="toggle-sidebar-info button-hover"><span data-toggle="文章目录">站点概览</span></div><div class="sidebar-toc"><div class="sidebar-toc-title">目录</div><div class="sidebar-toc-progress"><span class="progress-notice">您已阅读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc-progress-bar"></div></div><div class="sidebar-toc-content" id="sidebar-toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%B2%B2%E9%B9%8F%E5%A4%A7%E4%BD%9C%E4%B8%9A%EF%BC%9A%E5%8D%8E%E4%B8%BA%E4%BA%91%E9%83%A8%E7%BD%B2"><span class="toc-number">1.</span> <span class="toc-text">鲲鹏大作业：华为云部署</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%A7%9Fecs"><span class="toc-number">1.0.1.</span> <span class="toc-text">租ecs</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%A7%9FRDS"><span class="toc-number">1.0.2.</span> <span class="toc-text">租RDS</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AE%89%E8%A3%85mysql"><span class="toc-number">1.0.3.</span> <span class="toc-text">安装mysql</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AE%89%E8%A3%85jdk8"><span class="toc-number">1.0.4.</span> <span class="toc-text">安装jdk8</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AE%89%E8%A3%85tomcat"><span class="toc-number">1.0.5.</span> <span class="toc-text">安装tomcat</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%8A%E4%BC%A0%E5%90%AF%E5%8A%A8%E9%A1%B9%E7%9B%AE"><span class="toc-number">1.0.6.</span> <span class="toc-text">上传启动项目</span></a></li></ol></li></ol></li></ol></div></div><div class="author-info hide"><div class="author-info-avatar"><img class="author-info-avatar-img" src="/avatar.png"></div><div class="author-info-name">edward</div><div class="author-info-description">欢迎</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/Edward-hhh" target="_blank">GitHub<i class="icon-dot bg-color6"></i></a><a class="links-button button-hover" href="mailto:2414999137@qq.com" target="_blank">E-Mail<i class="icon-dot bg-color9"></i></a><a class="links-button button-hover" href="tencent://message/?uin=2414999137&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color8"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">9</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">10</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">9</span></a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a><a class="menu-item" href="/about">关于</a></nav><div class="right-info"><a class="title-name" href="/">欢迎来到后花园</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><article id="post"><div class="post-header"><div class="title">华为云部署Java web项目</div><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 发表于 2023-01-01 | 更新于 2023-01-01</time><!--time.button-hover.post-date #[i.fas.fa-calendar-alt.article-icon(aria-hidden="true")] #[=__('post.modified')] #[=date(page['updated'], config.date_format)]--><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/%E9%A1%B9%E7%9B%AE/">项目</a><i class="fa fa-angle-right" style="margin: 0 8px;"></i><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/%E9%A1%B9%E7%9B%AE/Java-web/">Java web</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/Java/">Java</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/%E4%BA%91%E9%83%A8%E7%BD%B2/">云部署</a></div></div></div><div class="main-content"><p><img src="https://s2.loli.net/2022/08/02/clQoqBDumNjPSCy.png" alt="wallhaven-pkogdp_1920x1080"></p>
+<h3 id="鲲鹏大作业：华为云部署"><a href="#鲲鹏大作业：华为云部署" class="headerlink" title="鲲鹏大作业：华为云部署"></a>鲲鹏大作业：华为云部署</h3><h5 id="租ecs"><a href="#租ecs" class="headerlink" title="租ecs"></a>租<code>ecs</code></h5><p><code>CentOs7.6</code></p>
+<span id="more"></span>
+
+<h5 id="租RDS"><a href="#租RDS" class="headerlink" title="租RDS"></a>租<code>RDS</code></h5><p>选择按需计费，<code>mysql</code>，版本5.6，性能<code>2vCPUs|4GB</code>，设置密码，其他默认。</p>
+<h5 id="安装mysql"><a href="#安装mysql" class="headerlink" title="安装mysql"></a>安装<code>mysql</code></h5><p>1、下载安装包<code>mysql-5.6.34-linux-glibc2.5-x86_64.tar.gz</code>（可前往官网自行下载：<a target="_blank" rel="noopener" href="https://downloads.mysql.com/archives/community/%EF%BC%89">https://downloads.mysql.com/archives/community/）</a></p>
+<p>2、卸载系统自带的<code>Mariadb</code></p>
+<ul>
+<li>查询已经安装的<code>mariadb</code></li>
+</ul>
+<p><code>rpm -qa|grep mariadb</code></p>
+<ul>
+<li>卸载<code>mariadb</code>，文件名为上述命令查询出来的文件</li>
+</ul>
+<p><code>rpm -e --nodeps [文件名]</code></p>
+<p>3、删除etc目录下的<code>my.cnf</code></p>
+<p><code>rm /etc/my.cnf</code></p>
+<p>4、创建<code>mysql</code>用户组</p>
+<p><code>groupadd mysql</code></p>
+<p>5、创建一个用户名为<code>mysql</code>的用户并加入<code>mysql</code>用户组</p>
+<p><code>useradd -g mysql mysql</code></p>
+<p>6、将下载的压缩包上传到 <code>/usr/local/</code> 目录下</p>
+<p>7、解压安装包</p>
+<p>进入目录</p>
+<p><code>cd /usr/local/</code></p>
+<p><code>tar -zxvf mysql-5.6.34-linux-glibc2.5-x86_64.tar.gz</code></p>
+<p>8、重命名</p>
+<p><code>mv mysql-5.6.34-linux-glibc2.5-x86_64 mysql</code></p>
+<p>9、在 etc 下新建配置文件<code>my.cnf</code>，并在该文件中添加一下代码：</p>
+<p>进入目录</p>
+<p><code>cd mysql/support-files/</code></p>
+<p>复制一份放到etc中</p>
+<p><code>cp my-default.cnf /etc/my.cnf</code></p>
+<p>配置etc目录下的<code>my.cnf</code>文件</p>
+<p><code>vim /etc/my.cnf</code></p>
+<p>通过vim编辑器编辑<code>my.cnf</code>代码如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">[mysql]</span><br><span class="line"># 设置mysql客户端默认字符集</span><br><span class="line">default-character-set=utf8 </span><br><span class="line">socket=/var/lib/mysql/mysql.sock</span><br><span class="line"></span><br><span class="line">[mysqld]</span><br><span class="line">skip-name-resolve</span><br><span class="line">#设置3306端口</span><br><span class="line">port = 3306 </span><br><span class="line">socket=/var/lib/mysql/mysql.sock</span><br><span class="line"># 设置mysql的安装目录</span><br><span class="line">basedir=/usr/local/mysql</span><br><span class="line"># 设置mysql数据库的数据的存放目录</span><br><span class="line">datadir=/usr/local/mysql/data</span><br><span class="line"># 允许最大连接数</span><br><span class="line">max_connections=200</span><br><span class="line"># 服务端使用的字符集默认为8比特编码的latin1字符集</span><br><span class="line">character-set-server=utf8</span><br><span class="line"># 创建新表时将使用的默认存储引擎</span><br><span class="line">default-storage-engine=INNODB</span><br><span class="line">lower_case_table_name=1</span><br><span class="line">max_allowed_packet=16M</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>10、进入安装<code>mysql</code>软件的目录</p>
+<p><code>cd /usr/local/mysql/</code></p>
+<p>修改当前目录拥有者为<code>mysql</code>用户</p>
+<p><code>chown -R mysql:mysql ./</code></p>
+<p>安装数据库</p>
+<p><code>./scripts/mysql_install_db --user=mysql --basedir=/usr/local/mysql/ --datadir=/usr/local/mysql/data/</code></p>
+<p>这边可能会报这个错误：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">FATAL ERROR: please install the following Perl modules before executing </span><br><span class="line">./scripts/mysql_install_db:Data::Dumper</span><br></pre></td></tr></table></figure>
+
+<p>解决方法：安装<code>autoconf</code>库，这个包安装的同时会安装<code>Data:Dumper</code>模块</p>
+<p><code>yum -y install autoconf</code></p>
+<p>我做的时候还报了另外一个错误：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Installing MySQL system tables.../usr/local/mysql/bin/mysqld: error while loading shared</span><br></pre></td></tr></table></figure>
+
+<p>原因是缺少<code>libaio</code>库文件</p>
+<p>解决方法：</p>
+<p><code>yum install libaio* -y</code></p>
+<p>安装完之后再次执行【安装数据库】的命令</p>
+<p>修改当前data目录的拥有者为<code>mysql</code>用户</p>
+<p><code>chown -R mysql:mysql data</code></p>
+<p>到此安装数据库完毕！</p>
+<p>【下面是配置操作】</p>
+<p>1、授予<code>my.cnf</code>最大权限</p>
+<p><code>cd ~</code></p>
+<p><code>chmod 777 /etc/my.cnf</code></p>
+<p>2、设置开机自启动服务控制脚本：</p>
+<ul>
+<li>复制启动脚本到资源目录</li>
+</ul>
+<p><code>cd /usr/local/mysql/</code></p>
+<p><code>cp ./support-files/mysql.server /etc/rc.d/init.d/mysqld</code></p>
+<ul>
+<li>增加<code>mysqld</code>服务控制脚本执行权限</li>
+</ul>
+<p><code>chmod +x /etc/rc.d/init.d/mysqld</code></p>
+<ul>
+<li>将<code>mysqld</code>服务加入到系统服务</li>
+</ul>
+<p><code>chkconfig --add mysqld</code></p>
+<ul>
+<li>检查<code>mysqld</code>服务是否已经生效</li>
+</ul>
+<p><code>chkconfig --list mysqld</code></p>
+<p>正确输出：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysqld 0:off 1:off 2:on 3:on 4:on 5:on 6:off</span><br></pre></td></tr></table></figure>
+
+<p>表明<code>mysqld</code>服务已经生效，在2、3、4、5运行级别随系统启动而自动启动，以后可以使用<code>service</code>命令控制<code>mysql</code>的启动和停止。</p>
+<p>启动服务：<code>service mysqld start</code></p>
+<p>停止服务：<code>service mysqld stop</code></p>
+<ul>
+<li>启动<code>mysqld</code></li>
+</ul>
+<p><code>service mysqld start</code></p>
+<ul>
+<li>将<code>mysql</code>的<code>bin</code>目录加入到<code>PATH</code>环境变量，编辑<code>~/bash_profile</code>文件</li>
+</ul>
+<p><code>vim ~/.bash_profile</code></p>
+<p>在文件结尾添加一行：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export PATH=$PATH:/usr/local/mysql/bin</span><br></pre></td></tr></table></figure>
+
+<p>执行下面命令使得修改内容立即生效</p>
+<p><code>source ~/.bash_profile</code></p>
+<ul>
+<li>以<code>root</code>账户登录，默认是没有密码的</li>
+</ul>
+<p><code>mysql -u root -p</code></p>
+<ul>
+<li>设置<code>root</code>账户密码为<code>root</code></li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">use mysql;</span><br><span class="line">update user set password=password(&#x27;root&#x27;) where user=&#x27;root&#x27; and host=&#x27;localhost&#x27;;</span><br><span class="line">flush privileges;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<ul>
+<li><p>安装步骤参考：<code>https://blog.csdn.net/qq_17776287/article/details/53536761</code></p>
+</li>
+<li><p>报错处理<code>https://blog.csdn.net/songmao3145/article/details/77676402</code></p>
+</li>
+<li><p>通过命令行连接数据库<code>https://help.aliyun.com/document_detail/26138.html</code></p>
+</li>
+<li><p><code>mysql -h [ip地址] -P 3306 -u root -p</code>   注意这里的第一个P是大写的</p>
+</li>
+</ul>
+<h5 id="安装jdk8"><a href="#安装jdk8" class="headerlink" title="安装jdk8"></a>安装<code>jdk8</code></h5><p>1、 安装方法</p>
+<p><code>CentOs</code>上使用 <code>yum</code> 直接安装，环境变量自动配置好</p>
+<p>2、查看是否已经安装</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@ecs ~]# java -version</span><br><span class="line">openjdk version &quot;1.8.0_352&quot;</span><br><span class="line">OpenJDK Runtime Environment (build 1.8.0_352-b08)</span><br><span class="line">OpenJDK 64-Bit Server VM (build 25.352-b08, mixed mode)</span><br></pre></td></tr></table></figure>
+
+<p>3、卸载</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rpm -qa |grep java</span><br><span class="line">rpm -qa |grep jdk</span><br><span class="line">rpm -qa |grep gcj</span><br></pre></td></tr></table></figure>
+
+<p>如果有输出信息，批量卸载系统自带</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -qa | grep java | xargs rpm -e --nodeps</span><br></pre></td></tr></table></figure>
+
+<p>如果使用 <code>yum</code> 安装的 <code>jdk</code>，请使用下面命令卸载</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y remove java-1.8.0-openjdk-headless.x86_64</span><br></pre></td></tr></table></figure>
+
+<p>4、安装</p>
+<ul>
+<li>检查<code>yum</code>中有没有<code>java1.8</code>的包</li>
+</ul>
+<p><code>yum list java-1.8*</code></p>
+<ul>
+<li>开始安装</li>
+</ul>
+<p><code>yum install java-1.8.0-openjdk* -y</code></p>
+<ul>
+<li>验证是否安装成功</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@ecs ~]# java -version</span><br><span class="line">openjdk version &quot;1.8.0_352&quot;</span><br><span class="line">OpenJDK Runtime Environment (build 1.8.0_352-b08)</span><br><span class="line">OpenJDK 64-Bit Server VM (build 25.352-b08, mixed mode)</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<ul>
+<li>安装参考：<code>https://cloud.tencent.com/developer/article/1965229</code></li>
+</ul>
+<h5 id="安装tomcat"><a href="#安装tomcat" class="headerlink" title="安装tomcat"></a>安装<code>tomcat</code></h5><ul>
+<li>下载：<code>wget  https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.51/bin/apache-tomcat-8.5.51.tar.gz</code></li>
+<li>解压缩：<code>tar -zxf apache-tomcat-8.5.51.tar.gz</code></li>
+<li>创建目录：<code>mkdir /usr/local/tomcat</code></li>
+<li>移动<code>apache-tomcat-8.5.51</code>下的内容到<code>/usr/local/tomcat</code>：<code>mv apache-tomcat-8.5.51/* /usr/local/tomcat/</code></li>
+</ul>
+<h5 id="上传启动项目"><a href="#上传启动项目" class="headerlink" title="上传启动项目"></a>上传启动项目</h5><ul>
+<li><p>上传<code>war</code>包到<code>/usr/local/tomcat/webapps</code></p>
+</li>
+<li><p>启动<code>tomcat</code>：<code>/usr/local/tomcat/bin/startup.sh</code></p>
+</li>
+<li><p>访问：<code>http://[ip地址]:8080/[项目名]</code></p>
+</li>
+</ul>
+</div><div class="post-copyright"><div class="post-copyright-author"><span class="post-copyright-meta">本文作者: </span><span class="post-copyright-info"><a href="mailto:undefined">edward</a></span></div><div class="post-copyright-type"><span class="post-copyright-meta">本文链接: </span><span class="post-copyright-info"><a href="https://edward-hhh.github.io/2023/01/01/%E5%8D%8E%E4%B8%BA%E4%BA%91%E9%83%A8%E7%BD%B2Java-web%E9%A1%B9%E7%9B%AE/">https://edward-hhh.github.io/2023/01/01/%E5%8D%8E%E4%B8%BA%E4%BA%91%E9%83%A8%E7%BD%B2Java-web%E9%A1%B9%E7%9B%AE/</a></span></div><div class="post-copyright-notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://edward-hhh.github.io">欢迎来到后花园</a>！</span></div></div></article><div id="pagination"><div class="next-post pull-right"><span class="line line-top"></span><span class="line line-right"></span><span class="line line-bottom"></span><span class="line line-left"></span><a href="/2022/08/08/mysql%E9%85%8D%E7%BD%AE/"><span>mysql配置</span><span>&nbsp;</span><i class="fas fa-angle-right"></i></a></div></div><!--div!= paginator()--></div></div><div class="button-hover" id="return-top"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><footer><div id="footer"><div class="button-hover" id="side-button"><i class="fas fa-arrow-right"></i></div><div class="right-content"><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fas fa-file-o"></i></span><span id="busuanzi_value_page_pv"></span><span></span></div><div class="copyright">&copy;2022 ～ 2023 By edward</div></div></div></footer></div><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery-3.3.1.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/velocity.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery.mCustomScrollbar.concat.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/fan.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/canvas_bg.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/utils.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/scroll.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/sidebar.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/copy.js"></script><!--script(src=url)--></body></html>
