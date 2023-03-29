@@ -142,21 +142,7 @@
   </url>
   
   <url>
-    <loc>https://weienhua.github.io/tags/Java/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weienhua.github.io/tags/%E4%BA%91%E9%83%A8%E7%BD%B2/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weienhua.github.io/tags/Linux/</loc>
+    <loc>https://weienhua.github.io/tags/django/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -170,7 +156,7 @@
   </url>
   
   <url>
-    <loc>https://weienhua.github.io/tags/django/</loc>
+    <loc>https://weienhua.github.io/tags/Linux/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -191,7 +177,21 @@
   </url>
   
   <url>
-    <loc>https://weienhua.github.io/tags/%E5%A4%A9%E6%A2%AF%E8%B5%9B/</loc>
+    <loc>https://weienhua.github.io/tags/Java/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weienhua.github.io/tags/%E4%BA%91%E9%83%A8%E7%BD%B2/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weienhua.github.io/tags/PTA/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -205,7 +205,7 @@
   </url>
   
   <url>
-    <loc>https://weienhua.github.io/tags/PTA/</loc>
+    <loc>https://weienhua.github.io/tags/%E5%A4%A9%E6%A2%AF%E8%B5%9B/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -215,13 +215,6 @@
   
   <url>
     <loc>https://weienhua.github.io/categories/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2023-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://weienhua.github.io/categories/%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -249,14 +242,14 @@
   </url>
   
   <url>
-    <loc>https://weienhua.github.io/categories/%E9%A1%B9%E7%9B%AE/Java-web/</loc>
+    <loc>https://weienhua.github.io/categories/%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://weienhua.github.io/categories/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -270,7 +263,14 @@
   </url>
   
   <url>
-    <loc>https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E5%90%8E%E7%AB%AF/</loc>
+    <loc>https://weienhua.github.io/categories/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://weienhua.github.io/categories/%E9%A1%B9%E7%9B%AE/Java-web/</loc>
     <lastmod>2023-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
