@@ -114,9 +114,9 @@
     <category term="环境配置" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
     
-    <category term="Linux" scheme="https://weienhua.github.io/tags/Linux/"/>
-    
     <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
+    
+    <category term="Linux" scheme="https://weienhua.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -125,9 +125,9 @@
     <link href="https://weienhua.github.io/2022/07/27/%E8%AE%B0%E4%BA%8B%E6%9C%AC/"/>
     <id>https://weienhua.github.io/2022/07/27/%E8%AE%B0%E4%BA%8B%E6%9C%AC/</id>
     <published>2022-07-27T03:06:01.000Z</published>
-    <updated>2023-02-21T08:16:38.699Z</updated>
+    <updated>2023-03-29T08:14:23.575Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/07/27/aUhDP7sTqMVI8bH.jpg" alt="ss"></p><h3 id="hexo发布文章"><a href="#hexo发布文章" class="headerlink" title="hexo发布文章"></a>hexo发布文章</h3><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code> 本地调试</p><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 上传到博客</p><p><code>hexo new &quot;新页面&quot;</code> 创建一个新页面在<code>source/_posts/</code>文件夹里</p><span id="more"></span><p><code>hexo clean</code> 清楚本地</p><p><code>hexo g</code> 生成静态页面</p><p><code>hexo s</code> 本地调试</p><p><code>hexo d</code>上传到博客</p><h3 id="virtualenv虚拟环境生成工具"><a href="#virtualenv虚拟环境生成工具" class="headerlink" title="virtualenv虚拟环境生成工具"></a>virtualenv虚拟环境生成工具</h3><p><code>virtualenv --version</code> 查看版本号</p><p><code>virtualenv [progect_env]</code> 创建虚拟环境</p><p>ps：如果有多个python解释器可以指定虚拟环境中的python版本，命令如下：</p><p><code>virtualenv -p [python解释器的路径:/usr/bin/python2.7] [project_env]</code></p><p><code>source [project_env]/bin/activate</code> 进入虚拟环境</p><p><code>deactivate</code> 退出虚拟环境</p><p>有用的文章</p><ul><li><a href="https://www.cnblogs.com/anthony-wang0228/articles/11461321.html">图片设置</a></li><li><a href="https://www.cnblogs.com/freely/p/8022923.html">virtualenv使用</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/07/27/aUhDP7sTqMVI8bH.jpg" alt="ss"></p><h3 id="hexo发布文章"><a href="#hexo发布文章" class="headerlink" title="hexo发布文章"></a>hexo发布文章</h3><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code> 本地调试</p><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 上传到博客</p><p><code>hexo new &quot;新页面&quot;</code> 创建一个新页面在<code>source/_posts/</code>文件夹里</p><span id="more"></span><p><code>hexo clean</code> 清楚本地</p><p><code>hexo g</code> 生成静态页面</p><p><code>hexo s</code> 本地调试</p><p><code>hexo d</code>上传到博客</p><h3 id="virtualenv虚拟环境生成工具"><a href="#virtualenv虚拟环境生成工具" class="headerlink" title="virtualenv虚拟环境生成工具"></a>virtualenv虚拟环境生成工具</h3><p>注：如果环境下有多个版本的<code>python</code>这是调用<code>virtualenv</code>就需要在命令前加上一个前缀：<code>python2 -m virtualenv --version</code>（比如2.7版本下装的<code>virtualenv</code>）</p><p><code>virtualenv --version</code> 查看版本号</p><p><code>virtualenv [progect_env]</code> 创建虚拟环境</p><p>ps：如果有多个python解释器可以指定虚拟环境中的python版本，命令如下：</p><p><code>virtualenv -p [python解释器的路径:/usr/bin/python2.7] [project_env]</code></p><p><code>source [project_env]/bin/activate</code> 进入虚拟环境</p><p><code>deactivate</code> 退出虚拟环境</p><p>有用的文章</p><ul><li><a href="https://www.cnblogs.com/anthony-wang0228/articles/11461321.html">图片设置</a></li><li><a href="https://www.cnblogs.com/freely/p/8022923.html">virtualenv使用</a></li></ul>]]></content>
     
     
     <summary type="html">&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/07/27/aUhDP7sTqMVI8bH.jpg&quot; alt=&quot;ss&quot;&gt;&lt;/p&gt;
@@ -164,9 +164,9 @@
     <category term="后端" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E5%90%8E%E7%AB%AF/"/>
     
     
-    <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
-    
     <category term="django" scheme="https://weienhua.github.io/tags/django/"/>
+    
+    <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
     
   </entry>
   
@@ -190,9 +190,9 @@
     <category term="后端" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E5%90%8E%E7%AB%AF/"/>
     
     
-    <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
-    
     <category term="django" scheme="https://weienhua.github.io/tags/django/"/>
+    
+    <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
     
   </entry>
   
