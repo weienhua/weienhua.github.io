@@ -6,7 +6,7 @@
   <link href="https://weienhua.github.io/atom.xml" rel="self"/>
   
   <link href="https://weienhua.github.io/"/>
-  <updated>2023-07-24T13:08:11.584Z</updated>
+  <updated>2023-07-25T01:30:04.800Z</updated>
   <id>https://weienhua.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>鸡蛋的硬度</title>
+    <link href="https://weienhua.github.io/2023/07/25/%E9%B8%A1%E8%9B%8B%E7%9A%84%E7%A1%AC%E5%BA%A6/"/>
+    <id>https://weienhua.github.io/2023/07/25/%E9%B8%A1%E8%9B%8B%E7%9A%84%E7%A1%AC%E5%BA%A6/</id>
+    <published>2023-07-25T00:50:23.000Z</published>
+    <updated>2023-07-25T01:30:04.800Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="鸡蛋的硬度"><a href="#鸡蛋的硬度" class="headerlink" title="鸡蛋的硬度"></a>鸡蛋的硬度</h3><p>题目来自acwing</p><h4 id="题目（点击跳转）"><a href="#题目（点击跳转）" class="headerlink" title="题目（点击跳转）"></a><a href="https://www.acwing.com/problem/content/1050/">题目（点击跳转）</a></h4><p>最近XX公司举办了一个奇怪的比赛：鸡蛋硬度之王争霸赛。</p><p>参赛者是来自世界各地的母鸡，比赛的内容是看谁下的蛋最硬，更奇怪的是XX公司并不使用什么精密仪器来测量蛋的硬度，他们采用了一种最老土的办法–从高度扔鸡蛋–来测试鸡蛋的硬度，如果一次母鸡下的蛋从高楼的第a层摔下来没摔破，但是从a+1层摔下来时摔破了，那么就说这只母鸡的鸡蛋的硬度是a。</p><span id="more"></span><p>你当然可以找出各种理由说明这种方法不科学，比如同一只母鸡下的蛋硬度可能不一样等等，但是这不影响XX公司的争霸赛，因为他们只是为了吸引大家的眼球，一个个鸡蛋从100 层的高楼上掉下来的时候，这情景还是能吸引很多人驻足观看的，当然，XX公司也绝不会忘记在高楼上挂一条幅，写上“XX公司”的字样–这比赛不过是XX公司的一个另类广告而已。</p><p>勤于思考的小A总是能从一件事情中发现一个数学问题，这件事也不例外。</p><p>“假如有很多同样硬度的鸡蛋，那么我可以用二分的办法用最少的次数测出鸡蛋的硬度”，小A对自己的这个结论感到很满意，不过很快麻烦来了，“但是，假如我的鸡蛋不够用呢，比如我只有1个鸡蛋，那么我就不得不从第1层楼开始一层一层的扔，最坏情况下我要扔100次。如果有2个鸡蛋，那么就从2层楼开始的地方扔……等等，不对，好像应该从1&#x2F;3的地方开始扔才对，嗯，好像也不一定啊……3个鸡蛋怎么办，4个，5个，更多呢……”，和往常一样，小A又陷入了一个思维僵局，与其说他是勤于思考，不如说他是喜欢自找麻烦。</p><p>好吧，既然麻烦来了，就得有人去解决，小A的麻烦就靠你来解决了。</p><h4 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h4><p>输入包括多组数据，每组数据一行，包含两个正整数 n 和 m，其中 n 表示楼的高度，m 表示你现在拥有的鸡蛋个数，这些鸡蛋硬度相同（即它们从同样高的地方掉下来要么都摔碎要么都不碎），并且小于等于 n。</p><p>你可以假定硬度为 x 的鸡蛋从高度小于等于 x 的地方摔无论如何都不会碎（没摔碎的鸡蛋可以继续使用），而只要从比 x 高的地方扔必然会碎。</p><p>对每组输入数据，你可以假定鸡蛋的硬度在 0 至 n 之间，即在 n+1 层扔鸡蛋一定会碎。</p><h4 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h4><p>对于每一组输入，输出一个整数，表示使用最优策略在最坏情况下所需要的扔鸡蛋次数。</p><h4 id="数据范围"><a href="#数据范围" class="headerlink" title="数据范围"></a>数据范围</h4><p>1≤n≤100<br>1≤m≤10</p><h4 id="输入样例："><a href="#输入样例：" class="headerlink" title="输入样例："></a>输入样例：</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">100 1</span><br><span class="line">100 2</span><br></pre></td></tr></table></figure><h4 id="输出样例："><a href="#输出样例：" class="headerlink" title="输出样例："></a>输出样例：</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">100</span><br><span class="line">14</span><br></pre></td></tr></table></figure><h4 id="样例解释"><a href="#样例解释" class="headerlink" title="样例解释"></a>样例解释</h4><p>最优策略指在最坏情况下所需要的扔鸡蛋次数最少的策略。</p><p>如果只有一个鸡蛋，你只能从第一层开始扔，在最坏的情况下，鸡蛋的硬度是100，所以需要扔100次。如果采用其他策略，你可能无法测出鸡蛋的硬度(比如你第一次在第二层的地方扔,结果碎了,这时你不能确定硬度是0还是1)，即在最坏情况下你需要扔无限次，所以第一组数据的答案是100。</p><h4 id="思路一："><a href="#思路一：" class="headerlink" title="思路一："></a>思路一：</h4><p>$$<br>时间复杂度O(n^2m)<br>$$</p><ul><li>状态表示<ul><li>集合：<code>f[i][j]</code>表示所有测量区间长度为<code>i</code>且用了<code>j</code>个鸡蛋的测量次数的集合</li><li>属性：最坏情况下的最小值</li></ul></li><li>状态计算<ul><li>最后一个鸡蛋没有用到：<code>f[i][j] = f[i-1][j]</code></li><li>最后一个鸡蛋用了，这里分多种情况，看最后一个鸡蛋在那个点用的，需要循环遍历一遍<code>1-i</code>，假设在第k个位置用了第 j 个鸡蛋，那么有两种情况<ul><li>鸡蛋碎了，则<code>f[i][j] = f[k-1][j-1]</code></li><li>鸡蛋没碎，则<code>f[i][j] = f[i-k][j-1]</code></li></ul></li><li>那鸡蛋碎和不碎是一个不确定事件，所以这里要去两者的最大值，然后再加一，因为第k层测试了一次。</li><li>所以状态计算为：<code>f[i][j] = max(f[k-1][j-1], f[i-k][j-1]) + 1</code></li></ul></li><li>最后得到两种情况状态计算，再求最小值即可。</li><li><code>f[i][j] = min(f[i-1][j], max(f[k-1][j-1], f[i-k][j-1]) + 1)</code></li></ul><h4 id="代码一："><a href="#代码一：" class="headerlink" title="代码一："></a>代码一：</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">110</span>, M = <span class="number">11</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> n, m;</span><br><span class="line"><span class="type">int</span> f[N][M];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">while</span>(~<span class="built_in">scanf</span>(<span class="string">&quot;%d %d&quot;</span>, &amp;n, &amp;m))&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i ++ ) f[i][<span class="number">1</span>] = i;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= m; i ++ ) f[<span class="number">1</span>][i] = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; i ++ ) </span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">2</span>; j &lt;= m; j ++ )&#123;</span><br><span class="line">                f[i][j] = f[i][j - <span class="number">1</span>];</span><br><span class="line">                <span class="keyword">for</span>(<span class="type">int</span> k = <span class="number">1</span>; k &lt;= i; k ++ ) </span><br><span class="line">                    f[i][j] = <span class="built_in">min</span>(f[i][j], <span class="built_in">max</span>(f[k - <span class="number">1</span>][j - <span class="number">1</span>], f[i - k][j]) + <span class="number">1</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        cout &lt;&lt; f[n][m] &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="思路二："><a href="#思路二：" class="headerlink" title="思路二："></a>思路二：</h4><p>$$<br>时间复杂度O(nm)<br>$$</p><ul><li>状态表示<ul><li>集合：所有使用<code>j</code>个鸡蛋，测量次数为<code>i</code>的区间长度的集合</li><li>属性：最大值</li></ul></li><li>状态计算<ul><li>第<code>j</code>个鸡蛋使用位置为高度，假设为<code>k</code><ul><li>鸡蛋碎了，高度在<code>k</code>下边，<code>f[i-1][j-1]</code></li><li>鸡蛋没碎，高度在<code>k</code>上边，<code>f[i-1][j]</code></li></ul></li><li>那么能测量区间的最大值就是<code>f[i][j] = f[i-1][j-1] + f[i-1][j] + 1</code></li></ul></li></ul><h4 id="代码二："><a href="#代码二：" class="headerlink" title="代码二："></a>代码二：</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">110</span>, M = <span class="number">11</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> n, m;</span><br><span class="line"><span class="type">int</span> f[N][M];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">while</span>(cin &gt;&gt; n &gt;&gt; m) &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i ++ ) &#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">1</span>; j &lt;= m; j ++ )</span><br><span class="line">                f[i][j] = f[i - <span class="number">1</span>][j] + f[i - <span class="number">1</span>][j - <span class="number">1</span>] + <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span>(f[i][m] &gt;= n)&#123;</span><br><span class="line">                cout &lt;&lt; i &lt;&lt; endl;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;鸡蛋的硬度&quot;&gt;&lt;a href=&quot;#鸡蛋的硬度&quot; class=&quot;headerlink&quot; title=&quot;鸡蛋的硬度&quot;&gt;&lt;/a&gt;鸡蛋的硬度&lt;/h3&gt;&lt;p&gt;题目来自acwing&lt;/p&gt;
+&lt;h4 id=&quot;题目（点击跳转）&quot;&gt;&lt;a href=&quot;#题目（点击跳转）&quot; class=&quot;headerlink&quot; title=&quot;题目（点击跳转）&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://www.acwing.com/problem/content/1050/&quot;&gt;题目（点击跳转）&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;最近XX公司举办了一个奇怪的比赛：鸡蛋硬度之王争霸赛。&lt;/p&gt;
+&lt;p&gt;参赛者是来自世界各地的母鸡，比赛的内容是看谁下的蛋最硬，更奇怪的是XX公司并不使用什么精密仪器来测量蛋的硬度，他们采用了一种最老土的办法–从高度扔鸡蛋–来测试鸡蛋的硬度，如果一次母鸡下的蛋从高楼的第a层摔下来没摔破，但是从a+1层摔下来时摔破了，那么就说这只母鸡的鸡蛋的硬度是a。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="算法" scheme="https://weienhua.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="笔试" scheme="https://weienhua.github.io/categories/%E7%AE%97%E6%B3%95/%E7%AC%94%E8%AF%95/"/>
+    
+    
+    <category term="c/c++" scheme="https://weienhua.github.io/tags/c-c/"/>
+    
+  </entry>
   
   <entry>
     <title>寻找矩阵的极小值</title>
@@ -267,9 +292,9 @@
     <category term="环境配置" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
     
-    <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
-    
     <category term="Linux" scheme="https://weienhua.github.io/tags/Linux/"/>
+    
+    <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
     
   </entry>
   
@@ -371,9 +396,9 @@
     <category term="环境配置" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
     
-    <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
-    
     <category term="Linux" scheme="https://weienhua.github.io/tags/Linux/"/>
+    
+    <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
     
   </entry>
   
@@ -421,9 +446,9 @@
     <category term="后端" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E5%90%8E%E7%AB%AF/"/>
     
     
-    <category term="django" scheme="https://weienhua.github.io/tags/django/"/>
-    
     <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
+    
+    <category term="django" scheme="https://weienhua.github.io/tags/django/"/>
     
   </entry>
   
@@ -447,9 +472,9 @@
     <category term="后端" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E5%90%8E%E7%AB%AF/"/>
     
     
-    <category term="django" scheme="https://weienhua.github.io/tags/django/"/>
-    
     <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
+    
+    <category term="django" scheme="https://weienhua.github.io/tags/django/"/>
     
   </entry>
   
@@ -502,30 +527,6 @@
     <category term="PTA" scheme="https://weienhua.github.io/tags/PTA/"/>
     
     <category term="C/C++" scheme="https://weienhua.github.io/tags/C-C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的第一篇博客</title>
-    <link href="https://weienhua.github.io/2022/05/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://weienhua.github.io/2022/05/22/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
-    <published>2022-05-22T10:01:49.000Z</published>
-    <updated>2022-05-30T10:09:42.374Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/05/30/K3ktcoNbYWwnmQl.jpg" alt="好年 新年 孔明灯 女孩 4k动漫壁纸_彼岸图网"></p><p>哈哈哈哈，明天回家，激动！！！</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/05/30/K3ktcoNbYWwnmQl.jpg&quot; alt=&quot;好年 新年 孔明灯 女孩 4k动漫壁纸_彼岸图网&quot;&gt;&lt;/p&gt;
-&lt;p&gt;哈哈哈哈，明天回家，激动！！！&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="日常" scheme="https://weienhua.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
-    
     
   </entry>
   
