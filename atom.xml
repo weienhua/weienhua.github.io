@@ -6,7 +6,7 @@
   <link href="https://weienhua.github.io/atom.xml" rel="self"/>
   
   <link href="https://weienhua.github.io/"/>
-  <updated>2023-07-25T04:11:47.841Z</updated>
+  <updated>2023-07-28T08:46:48.920Z</updated>
   <id>https://weienhua.github.io/</id>
   
   <author>
@@ -15,6 +15,69 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>视辰信息科技（上海）有限公司面试</title>
+    <link href="https://weienhua.github.io/2023/07/28/%E8%A7%86%E8%BE%B0%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%EF%BC%88%E4%B8%8A%E6%B5%B7%EF%BC%89%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%9D%A2%E8%AF%95/"/>
+    <id>https://weienhua.github.io/2023/07/28/%E8%A7%86%E8%BE%B0%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%EF%BC%88%E4%B8%8A%E6%B5%B7%EF%BC%89%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%9D%A2%E8%AF%95/</id>
+    <published>2023-07-28T08:23:40.000Z</published>
+    <updated>2023-07-28T08:46:48.920Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="视辰信息科技（上海）有限公司面试"><a href="#视辰信息科技（上海）有限公司面试" class="headerlink" title="视辰信息科技（上海）有限公司面试"></a>视辰信息科技（上海）有限公司面试</h3><p>boss直聘投简历，前端实习生，投过去等了两天，然后回复问了一下可以实习多久，然后就约了第二天面试。面完之后说是主要做小程序的。</p><span id="more"></span><h4 id="一面（2023-07-28）"><a href="#一面（2023-07-28）" class="headerlink" title="一面（2023-07-28）"></a>一面（2023-07-28）</h4><p>这个算是技术面吧，从开始到结束大概有40分钟左右，考察的方面感觉比较多方位了。流程大概就下面这些。</p><ul><li>自我介绍+项目介绍</li><li>你认为项目中比较困难的点或者说开发时遇到的难点有什么</li><li>为什么用opencv，有其他可以替代的技术吗（项目中有监控模块提到了opencv读取视频流，所以面试官就提到了）</li><li>小程序开发了解吗</li><li>看你简历上写会用nodejs</li><li>前端的布局</li><li>js数组有哪些方法</li><li>js逻辑问题<ul><li>给定两个数组，怎么去求两个数组的交集</li></ul></li><li>微信小程序做过的项目介绍一下</li><li>vue组件间的通信</li><li>你能接受微信小程序开发这个方向吗</li></ul><p>大概就这么多，完事之后就是等通知。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;视辰信息科技（上海）有限公司面试&quot;&gt;&lt;a href=&quot;#视辰信息科技（上海）有限公司面试&quot; class=&quot;headerlink&quot; title=&quot;视辰信息科技（上海）有限公司面试&quot;&gt;&lt;/a&gt;视辰信息科技（上海）有限公司面试&lt;/h3&gt;&lt;p&gt;boss直聘投简历，前端实习生，投过去等了两天，然后回复问了一下可以实习多久，然后就约了第二天面试。面完之后说是主要做小程序的。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="面试" scheme="https://weienhua.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="前端" scheme="https://weienhua.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>上海梭翱信息技术有限公司面试</title>
+    <link href="https://weienhua.github.io/2023/07/28/%E4%B8%8A%E6%B5%B7%E6%A2%AD%E7%BF%B1%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%9D%A2%E8%AF%95/"/>
+    <id>https://weienhua.github.io/2023/07/28/%E4%B8%8A%E6%B5%B7%E6%A2%AD%E7%BF%B1%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%9D%A2%E8%AF%95/</id>
+    <published>2023-07-28T03:02:32.000Z</published>
+    <updated>2023-07-28T08:51:44.645Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="上海梭翱信息技术有限公司面试"><a href="#上海梭翱信息技术有限公司面试" class="headerlink" title="上海梭翱信息技术有限公司面试"></a>上海梭翱信息技术有限公司面试</h3><p>其实在这次面试前，boss直聘上的面试官给打电话了，电话是说了大概的薪资待遇，因为这边是在郑州，然后去上海工作一个人过去，面试官说上海的租房有点贵，得两千，然后住和吃下来估计就把工资花完了。让我考虑好之后跟他约面试，想了想要不还是先面试吧，过了再考虑去不去，别决定要去了，然后面试没过，所以就有了下面的技术面。</p><span id="more"></span><h4 id="一面（2023-07-28）"><a href="#一面（2023-07-28）" class="headerlink" title="一面（2023-07-28）"></a>一面（2023-07-28）</h4><p>这次算是技术面吧，在腾讯会议面的，面试官是公司的前端开发，问了一下比较基础的问题。</p><ul><li>自我介绍+项目介绍</li><li>你在项目中负责什么</li><li>在项目开发中遇到的最不好解决的问题是什么</li><li>css如何实现垂直居中</li><li>了解防抖和节流吗</li><li>浏览器储存信息的方式有什么</li><li>react组件间传递信息</li><li>react组件生命周期</li></ul><p>面试完之后就是说等通知。</p><h4 id="通过"><a href="#通过" class="headerlink" title="通过"></a>通过</h4><p>上午面的技术面，中午一点半打电话说面试通过了，然后让好好考虑一下，上海租房成本比较高，所以hr也让好好想想，毕竟一天200，确实不多。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;上海梭翱信息技术有限公司面试&quot;&gt;&lt;a href=&quot;#上海梭翱信息技术有限公司面试&quot; class=&quot;headerlink&quot; title=&quot;上海梭翱信息技术有限公司面试&quot;&gt;&lt;/a&gt;上海梭翱信息技术有限公司面试&lt;/h3&gt;&lt;p&gt;其实在这次面试前，boss直聘上的面试官给打电话了，电话是说了大概的薪资待遇，因为这边是在郑州，然后去上海工作一个人过去，面试官说上海的租房有点贵，得两千，然后住和吃下来估计就把工资花完了。让我考虑好之后跟他约面试，想了想要不还是先面试吧，过了再考虑去不去，别决定要去了，然后面试没过，所以就有了下面的技术面。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="面试" scheme="https://weienhua.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="前端" scheme="https://weienhua.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>霖客达面试</title>
+    <link href="https://weienhua.github.io/2023/07/28/%E9%9C%96%E5%AE%A2%E8%BE%BE%E9%9D%A2%E8%AF%95/"/>
+    <id>https://weienhua.github.io/2023/07/28/%E9%9C%96%E5%AE%A2%E8%BE%BE%E9%9D%A2%E8%AF%95/</id>
+    <published>2023-07-28T00:55:55.000Z</published>
+    <updated>2023-07-28T08:52:15.120Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="霖客达面试"><a href="#霖客达面试" class="headerlink" title="霖客达面试"></a>霖客达面试</h3><h4 id="一面（2023-07-27）"><a href="#一面（2023-07-27）" class="headerlink" title="一面（2023-07-27）"></a>一面（2023-07-27）</h4><p>面试是在boss直聘上投的，本来以为不会回复了，因为也没读，前天晚上忽然回复了，问可以实习多久，说公司准备直接签三年，一下子有点懵，这是不是骗大学生的，后面回复他可以长期实习，如果毕业之后可以留公司继续那肯定也是可以的，然后就约了第二天面试，怎么说呢，感觉自己的实力有点差，后来又想，面试就面试吧，如果看上了那肯定很好，没看上也没什么，接着学习就可以了。</p><span id="more"></span><p>面试是在boss直聘上进行的，在线视频面试，流程大概就下面这些：</p><ul><li>自我介绍</li><li>讲一下自己觉得做的最好的一个项目</li><li>还记得一些排序算法吗</li><li>讲一下快排吧</li><li>设计模式记得几种（这个之前没有学习过，面试官大概说了几个，听到了单例模式，想起来之前用过单例模式在监控分析程序上）</li><li>讲了一下自己之前用过的一个单例模式</li><li>结束，说这两天还会安排第二次面试</li></ul><p>面试完之后说等通知吧，这两天可能还会有人联系找你面试。</p>]]></content>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;霖客达面试&quot;&gt;&lt;a href=&quot;#霖客达面试&quot; class=&quot;headerlink&quot; title=&quot;霖客达面试&quot;&gt;&lt;/a&gt;霖客达面试&lt;/h3&gt;&lt;h4 id=&quot;一面（2023-07-27）&quot;&gt;&lt;a href=&quot;#一面（2023-07-27）&quot; class=&quot;headerlink&quot; title=&quot;一面（2023-07-27）&quot;&gt;&lt;/a&gt;一面（2023-07-27）&lt;/h4&gt;&lt;p&gt;面试是在boss直聘上投的，本来以为不会回复了，因为也没读，前天晚上忽然回复了，问可以实习多久，说公司准备直接签三年，一下子有点懵，这是不是骗大学生的，后面回复他可以长期实习，如果毕业之后可以留公司继续那肯定也是可以的，然后就约了第二天面试，怎么说呢，感觉自己的实力有点差，后来又想，面试就面试吧，如果看上了那肯定很好，没看上也没什么，接着学习就可以了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="面试" scheme="https://weienhua.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="前端" scheme="https://weienhua.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>链表中环的入口结点</title>
@@ -343,9 +406,9 @@
     <category term="环境配置" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
     
-    <category term="Linux" scheme="https://weienhua.github.io/tags/Linux/"/>
-    
     <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
+    
+    <category term="Linux" scheme="https://weienhua.github.io/tags/Linux/"/>
     
   </entry>
   
@@ -447,85 +510,9 @@
     <category term="环境配置" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
     
     
+    <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
+    
     <category term="Linux" scheme="https://weienhua.github.io/tags/Linux/"/>
-    
-    <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记事本</title>
-    <link href="https://weienhua.github.io/2022/07/27/%E8%AE%B0%E4%BA%8B%E6%9C%AC/"/>
-    <id>https://weienhua.github.io/2022/07/27/%E8%AE%B0%E4%BA%8B%E6%9C%AC/</id>
-    <published>2022-07-27T03:06:01.000Z</published>
-    <updated>2023-04-04T09:45:34.771Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/07/27/aUhDP7sTqMVI8bH.jpg" alt="ss"></p><h3 id="hexo发布文章"><a href="#hexo发布文章" class="headerlink" title="hexo发布文章"></a>hexo发布文章</h3><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code> 本地调试</p><p><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code> 上传到博客</p><p><code>hexo new &quot;新页面&quot;</code> 创建一个新页面在<code>source/_posts/</code>文件夹里</p><span id="more"></span><p><code>hexo clean</code> 清楚本地</p><p><code>hexo g</code> 生成静态页面</p><p><code>hexo s</code> 本地调试</p><p><code>hexo d</code>上传到博客</p><h3 id="virtualenv虚拟环境生成工具"><a href="#virtualenv虚拟环境生成工具" class="headerlink" title="virtualenv虚拟环境生成工具"></a>virtualenv虚拟环境生成工具</h3><p>注：如果环境下有多个版本的<code>python</code>这时调用<code>virtualenv</code>就需要在命令前加上一个前缀：<code>python2 -m virtualenv --version</code>（比如2.7版本下装的<code>virtualenv</code>）</p><p><code>virtualenv --version</code> 查看版本号</p><p><code>virtualenv [progect_env]</code> 创建虚拟环境</p><p>ps：如果有多个python解释器可以指定虚拟环境中的python版本，命令如下：</p><p><code>virtualenv -p [python解释器的路径:/usr/bin/python2.7] [project_env]</code></p><p><code>source [project_env]/bin/activate</code> 进入虚拟环境</p><p><code>deactivate</code> 退出虚拟环境</p><p>有用的文章</p><ul><li><a href="https://www.cnblogs.com/anthony-wang0228/articles/11461321.html">图片设置</a></li><li><a href="https://www.cnblogs.com/freely/p/8022923.html">virtualenv使用</a></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/07/27/aUhDP7sTqMVI8bH.jpg&quot; alt=&quot;ss&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;hexo发布文章&quot;&gt;&lt;a href=&quot;#hexo发布文章&quot; class=&quot;headerlink&quot; title=&quot;hexo发布文章&quot;&gt;&lt;/a&gt;hexo发布文章&lt;/h3&gt;&lt;p&gt;&lt;code&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s&lt;/code&gt; 本地调试&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo d&lt;/code&gt; 上传到博客&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;hexo new &amp;quot;新页面&amp;quot;&lt;/code&gt; 创建一个新页面在&lt;code&gt;source/_posts/&lt;/code&gt;文件夹里&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日常" scheme="https://weienhua.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
-    
-    <category term="笔记" scheme="https://weienhua.github.io/categories/%E6%97%A5%E5%B8%B8/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>邮箱问题</title>
-    <link href="https://weienhua.github.io/2022/07/27/%E9%82%AE%E7%AE%B1%E9%97%AE%E9%A2%98/"/>
-    <id>https://weienhua.github.io/2022/07/27/%E9%82%AE%E7%AE%B1%E9%97%AE%E9%A2%98/</id>
-    <published>2022-07-27T02:34:59.000Z</published>
-    <updated>2023-01-08T11:43:27.462Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/07/27/NuGEq1j68YUiCol.png" alt="wallhaven-57yr13_1920x1080"></p><h3 id="django1-9-8-python2-7学习记录"><a href="#django1-9-8-python2-7学习记录" class="headerlink" title="django1.9.8+python2.7学习记录"></a>django1.9.8+python2.7学习记录</h3><p>在学习<code>django</code>的过程中出现的一些问题，配置个人中心页面的邮箱修改时，在点击发送验证码之后进入调试逻辑，刚开始在对象保存的时候出错，后来发现是前面的<code>send_type</code>字段定义的长度是10，<span id="more"></span>增加<code>update_email</code>后超出了最大长度，所以<code>save</code>就一直不成功，修改<code>models</code>中字段的<code>max_length</code>后，更新数据库的字段信息，就可以保存成功了。</p><p><img src="https://s2.loli.net/2022/07/27/ArMpDEvGok1zqbI.png" alt="1"></p><p><img src="https://s2.loli.net/2022/07/27/E2qvgkjdicCK7YX.png" alt="2"></p><hr><p>修改字段后可以保存成功了，但是在发送的时候出问题了，怎么也发不出去邮件，在网上查找之后，修改了<code>setting</code>配置中的<code>EMAIL_BACKEND</code>和<code>EMAIL_USE_TLS</code>两个字段，依然不行，试着把授权码重新生成了一下<code>EMAIL_HOST_PASSWORD</code>，设置之后发现可以发送成功了，后面把前面两个字段注释掉依然可以发送成功，所以猜测问题是出在授权码上，也许是时间有点久了，qq邮箱自动关闭了<code>smtp</code>的授权。</p><p><img src="https://s2.loli.net/2022/07/27/glCwbDW2jSK5X43.png" alt="3"></p><p>网上说<code>EMAIL_BACKEND</code>这个字段是为了检测邮箱账号和密码的格式是否正确</p><p><code>EMAIL_USE_TLS</code>这个字段说是信息的加密。</p><p>参考文章</p><ul><li><p><a href="https://blog.csdn.net/yx1179109710/article/details/81367617">https://blog.csdn.net/yx1179109710/article/details/81367617</a></p></li><li><p><a href="https://blog.csdn.net/z390332412/article/details/78055296?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~BlogCommendFromBaidu~default-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~BlogCommendFromBaidu~default-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;utm_relevant_index=1">https://blog.csdn.net/z390332412/article/details/78055296?spm=1001.2101.3001.6661.1&amp;utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1-78055296-blog-81367617.pc_relevant_multi_platform_whitelistv1_exp2&amp;utm_relevant_index=1</a></p></li><li><p><a href="https://blog.csdn.net/xinxinNoGiveUp/article/details/78900811">https://blog.csdn.net/xinxinNoGiveUp/article/details/78900811</a></p></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/07/27/NuGEq1j68YUiCol.png&quot; alt=&quot;wallhaven-57yr13_1920x1080&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;django1-9-8-python2-7学习记录&quot;&gt;&lt;a href=&quot;#django1-9-8-python2-7学习记录&quot; class=&quot;headerlink&quot; title=&quot;django1.9.8+python2.7学习记录&quot;&gt;&lt;/a&gt;django1.9.8+python2.7学习记录&lt;/h3&gt;&lt;p&gt;在学习&lt;code&gt;django&lt;/code&gt;的过程中出现的一些问题，配置个人中心页面的邮箱修改时，在点击发送验证码之后进入调试逻辑，刚开始在对象保存的时候出错，后来发现是前面的&lt;code&gt;send_type&lt;/code&gt;字段定义的长度是10，</summary>
-    
-    
-    
-    <category term="工程" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/"/>
-    
-    <category term="后端" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E5%90%8E%E7%AB%AF/"/>
-    
-    
-    <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
-    
-    <category term="django" scheme="https://weienhua.github.io/tags/django/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>media图片404加载失败设置</title>
-    <link href="https://weienhua.github.io/2022/06/08/media%E5%9B%BE%E7%89%87404%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5%E8%AE%BE%E7%BD%AE/"/>
-    <id>https://weienhua.github.io/2022/06/08/media%E5%9B%BE%E7%89%87404%E5%8A%A0%E8%BD%BD%E5%A4%B1%E8%B4%A5%E8%AE%BE%E7%BD%AE/</id>
-    <published>2022-06-08T01:49:03.000Z</published>
-    <updated>2023-01-08T11:43:37.353Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2022/06/08/ziDNk7ZJIY6A3XB.png" alt="wallhaven-w8gyex_1920x1080"></p><h3 id="django1-9-8-python2-7学习记录"><a href="#django1-9-8-python2-7学习记录" class="headerlink" title="django1.9.8+python2.7学习记录"></a>django1.9.8+python2.7学习记录</h3><p>在学习慕课网6-1时出现了问题，跟着课程视频设置的图片加载失败了，在评论区和浏览器F12中发现是media中的图片加载404错误，而课程视频中的设置只设置了static中的图片路径，所以就上网查找media中的图片设置前端显示，找了有些时间吧，现在已经可以正常显示了。</p><span id="more"></span><p><strong>下面是解决问题的方法：</strong></p><ul><li>第一步</li></ul><p>在settings中设置media的查找路径</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">MEDIA_URL = <span class="string">&#x27;/media/&#x27;</span></span><br><span class="line">MEDIA_ROOT = os.path.join(BASE_DIR, <span class="string">&#x27;media&#x27;</span>)</span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2022/06/08/qzg7CsDSkLoYmHN.png" alt="settings"></p><ul><li>第二步</li></ul><p>在urls中配置上传文件的访问函数</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> django.views.static <span class="keyword">import</span> serve</span><br><span class="line"><span class="keyword">from</span> . <span class="keyword">import</span> settings</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">urlpatterns = [</span><br><span class="line">    url(<span class="string">r&#x27;^xadmin/&#x27;</span>, xadmin.site.urls),</span><br><span class="line"></span><br><span class="line">    url(<span class="string">&#x27;^$&#x27;</span>, TemplateView.as_view(template_name=<span class="string">&quot;index.html&quot;</span>), name=<span class="string">&quot;index&quot;</span>),</span><br><span class="line"></span><br><span class="line">    url(<span class="string">r&#x27;^media/(?P&lt;path&gt;.*)&#x27;</span>, serve, &#123;<span class="string">&quot;document_root&quot;</span>:settings.MEDIA_ROOT&#125;),</span><br><span class="line">]</span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2022/06/08/TAEP6cHk1ZUSbnu.png" alt="&lt;!--urls--&gt;"></p><p>至此应该就可以在本地端口8000页面正常加载media中的图片了。</p><p><img src="https://s2.loli.net/2022/06/08/sJ6nKSo27A5pGhW.png" alt="微信截图_20220608100546"></p><p><em>参考文章</em></p><p><em><a href="https://www.jianshu.com/p/e9aaa7418792">https://www.jianshu.com/p/e9aaa7418792</a></em></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/06/08/ziDNk7ZJIY6A3XB.png&quot; alt=&quot;wallhaven-w8gyex_1920x1080&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;django1-9-8-python2-7学习记录&quot;&gt;&lt;a href=&quot;#django1-9-8-python2-7学习记录&quot; class=&quot;headerlink&quot; title=&quot;django1.9.8+python2.7学习记录&quot;&gt;&lt;/a&gt;django1.9.8+python2.7学习记录&lt;/h3&gt;&lt;p&gt;在学习慕课网6-1时出现了问题，跟着课程视频设置的图片加载失败了，在评论区和浏览器F12中发现是media中的图片加载404错误，而课程视频中的设置只设置了static中的图片路径，所以就上网查找media中的图片设置前端显示，找了有些时间吧，现在已经可以正常显示了。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="工程" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/"/>
-    
-    <category term="后端" scheme="https://weienhua.github.io/categories/%E5%B7%A5%E7%A8%8B/%E5%90%8E%E7%AB%AF/"/>
-    
-    
-    <category term="python" scheme="https://weienhua.github.io/tags/python/"/>
-    
-    <category term="django" scheme="https://weienhua.github.io/tags/django/"/>
     
   </entry>
   
